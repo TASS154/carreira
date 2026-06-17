@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descubra Sua Carreira — Questionário para Ensino Médio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="bg-pattern"></div>
+
+  <header class="site-header">
+    <div class="logo">🎯 Carreira</div>
+    <p class="tagline">Orientação vocacional para o 2º ano do ensino médio</p>
+  </header>
+
+  <main class="container">
+    <!-- Intro -->
+    <section id="intro" class="card intro-card">
+      <h1>Qual carreira combina com você?</h1>
+      <p class="lead">
+        Este questionário apresenta <strong>situações reais do dia a dia</strong> de diferentes
+        profissões. Não existe resposta certa ou errada — o objetivo é descobrir o que faz sentido
+        <em>para você</em>.
+      </p>
+
+      <div class="info-grid">
+        <div class="info-item">
+          <span class="info-num">100</span>
+          <span class="info-label">perguntas em 10 áreas</span>
+        </div>
+        <div class="info-item">
+          <span class="info-num">~25</span>
+          <span class="info-label">minutos</span>
+        </div>
+        <div class="info-item">
+          <span class="info-num">3</span>
+          <span class="info-label">carreiras sugeridas</span>
+        </div>
+      </div>
+
+      <div class="areas-preview">
+        <h2>Áreas avaliadas</h2>
+        <ul>
+          <li>💻 Tecnologia</li>
+          <li>🧾 Administração & Gestão</li>
+          <li>🏥 Saúde</li>
+          <li>💰 Finanças</li>
+          <li>🎨 Comunicação & Design</li>
+          <li>⚖️ Direito & Justiça</li>
+          <li>🔧 Engenharia & Exatas</li>
+          <li>📚 Educação & Humanas</li>
+          <li>🧠 Psicologia & Social</li>
+          <li>🔬 Ciências & Pesquisa</li>
+        </ul>
+      </div>
+
+      <p class="how-it-works">
+        As perguntas começam com rotina e conforto, passam por pressão e dilemas do dia a dia,
+        e vão ficando mais complexas no final. Metade são escalas de 1 a 5; metade são situações
+        com opções de resposta.
+      </p>
+
+      <button id="start-btn" class="btn btn-primary">Começar questionário</button>
+    </section>
+
+    <!-- Quiz -->
+    <section id="quiz" class="card quiz-card hidden">
+      <div class="quiz-header">
+        <div class="progress-wrap">
+          <div class="progress-track">
+            <div id="progress-bar" class="progress-bar"></div>
+          </div>
+          <span id="progress-text" class="progress-text">Pergunta 1 de 100</span>
+        </div>
+        <span id="area-badge" class="area-badge"></span>
+      </div>
+
+      <div class="question-meta">
+        <span id="question-number" class="question-level"></span>
+        <span id="question-category" class="question-category"></span>
+      </div>
+
+      <h2 id="question-text" class="question-text"></h2>
+
+      <div id="answer-area"></div>
+
+      <div class="quiz-nav">
+        <button id="prev-btn" class="btn btn-secondary" disabled>Anterior</button>
+        <button id="next-btn" class="btn btn-primary" disabled>Próxima</button>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="results-section hidden">
+      <div class="card results-header-card">
+        <h1>Seus resultados</h1>
+        <p>A IA (Gemini) analisa suas respostas e identifica as carreiras mais compatíveis com seu perfil.</p>
+      </div>
+      <div id="results-content"></div>
+      <button id="restart-btn" class="btn btn-secondary restart-btn">Refazer questionário</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Ferramenta de orientação vocacional · Ensino Médio · Resultados indicativos</p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
