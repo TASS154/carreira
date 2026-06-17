@@ -14,9 +14,9 @@ export const saude = [
     texto: 'Uma pessoa está com dor e ansiedade esperando atendimento. Você está atrasado(a). O que faz?',
     opcoes: [
       { texto: 'Fico desconfortável e evito contato visual', scores: { saude: 0.2, empatia: 0.2 } },
-      { texto: 'Explico a demora com calma e mostro que estou cuidando', scores: { saude: 0.85, empatia: 0.9, comunicacao: 0.7 } },
+      { texto: 'Explico a demora com calma e mostro que estou cuidando', scores: { saude: 0.95, empatia: 0.9, comunicacao: 0.7 } },
       { texto: 'Peço para outra pessoa atender — não sei o que dizer', scores: { saude: 0.3, pressao: -0.3 } },
-      { texto: 'Priorizo essa pessoa mesmo atrasando outros', scores: { saude: 0.9, cuidado: 0.9, empatia: 0.8 } },
+      { texto: 'Priorizo essa pessoa mesmo atrasando outros', scores: { saude: 0.85, cuidado: 0.9, empatia: 0.8 } },
     ],
   },
   {
@@ -45,7 +45,7 @@ export const saude = [
     opcoes: [
       { texto: 'Escondo o erro para não me prejudicar', scores: { saude: 0.1, etica: -0.8 } },
       { texto: 'Reconheço, corrijo e aprendo com o erro', scores: { saude: 0.95, etica: 0.9, responsabilidade: 0.9 } },
-      { texto: 'Fico muito culpado(a) e perco a confiança', scores: { saude: 0.5, autoconhecimento: 0.4 } },
+      { texto: 'Fico muito culpado(a) e perco a confiança', scores: { saude: 0.25, autoconhecimento: 0.4 } },
       { texto: 'Minimizo — foi algo pequeno, não importa', scores: { saude: 0.3, responsabilidade: -0.3 } },
     ],
   },

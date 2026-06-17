@@ -44,8 +44,8 @@ export const tecnologia = [
     texto: 'Seu time quer lançar uma funcionalidade rápida, mas você percebe que isso pode causar problemas no futuro. O que faz?',
     opcoes: [
       { texto: 'Concordo com o lançamento rápido — prazo é prioridade', scores: { tecnologia: 0.3, pressao: 0.3 } },
-      { texto: 'Explico os riscos e proponho uma solução intermediária', scores: { tecnologia: 0.8, qualidade: 0.8, comunicacao: 0.6 } },
-      { texto: 'Insisto em fazer do jeito certo, mesmo que demore mais', scores: { tecnologia: 0.9, qualidade: 1.0, visao_sistemica: 0.7 } },
+      { texto: 'Explico os riscos e proponho uma solução intermediária', scores: { tecnologia: 0.8, qualidade: 0.8, comunicacao: 0.6, lideranca_tecnica: 0.7 } },
+      { texto: 'Insisto em fazer do jeito certo, mesmo que demore mais', scores: { tecnologia: 0.9, qualidade: 1.0, visao_sistemica: 0.7, lideranca_tecnica: 0.8 } },
       { texto: 'Deixo os outros decidirem — não quero conflito', scores: { tecnologia: 0.2, lideranca: -0.3 } },
     ],
   },
@@ -60,7 +60,7 @@ export const tecnologia = [
     opcoes: [
       { texto: 'Sempre o mais rápido — o importante é entregar', scores: { tecnologia: 0.3, pressao: 0.4 } },
       { texto: 'Depende do contexto — avalio prazo vs. impacto', scores: { tecnologia: 0.8, visao_sistemica: 0.8, decisao: 0.6 } },
-      { texto: 'Prefiro a solução robusta, mesmo que leve mais tempo', scores: { tecnologia: 0.95, qualidade: 0.9, visao_sistemica: 0.9 } },
+      { texto: 'Prefiro a solução robusta, mesmo que leve mais tempo', scores: { tecnologia: 0.95, qualidade: 0.9, visao_sistemica: 0.9, lideranca_tecnica: 0.85 } },
       { texto: 'Fico indeciso(a) e acabo não fazendo nada', scores: { tecnologia: 0.1, decisao: -0.5 } },
     ],
   },

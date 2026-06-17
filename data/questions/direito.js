@@ -16,7 +16,7 @@ export const direito = [
       { texto: 'Finjo que não vi — não quero me envolver', scores: { direito: 0.1, etica: -0.3 } },
       { texto: 'Converso com a vítima e oriento buscar ajuda', scores: { direito: 0.8, empatia: 0.8, etica: 0.7 } },
       { texto: 'Denuncio formalmente com evidências', scores: { direito: 0.95, etica: 0.9, responsabilidade: 0.8 } },
-      { texto: 'Confronto o agressor diretamente na hora', scores: { direito: 0.6, pressao: 0.5, argumentacao: 0.5 } },
+      { texto: 'Confronto o agressor diretamente na hora', scores: { direito: 0.45, pressao: 0.5, argumentacao: 0.5 } },
     ],
   },
   {
@@ -61,7 +61,7 @@ export const direito = [
       { texto: 'Recuso — não defendo quem errou', scores: { direito: 0.4, etica: 0.5 } },
       { texto: 'Defendo com convicção total, ignorando os fatos', scores: { direito: 0.3, etica: -0.4 } },
       { texto: 'Defendo os direitos da pessoa dentro da lei, com ética', scores: { direito: 1.0, etica: 0.9, argumentacao: 0.9 } },
-      { texto: 'Fico dividido(a) e não consigo atuar bem', scores: { direito: 0.3, pressao: -0.3 } },
+      { texto: 'Fico dividido(a) e não consigo atuar bem', scores: { direito: 0.2, pressao: -0.3 } },
     ],
   },
   {

@@ -31,7 +31,7 @@ export const administracao = [
       { texto: 'Fico sobrecarregado(a) e não sei por onde começar', scores: { administracao: 0.2, pressao: -0.5 } },
       { texto: 'Repriorizo tarefas e comunico o que é possível entregar', scores: { administracao: 0.9, organizacao: 0.8, comunicacao: 0.7 } },
       { texto: 'Peço mais prazo sem apresentar um plano', scores: { administracao: 0.4, decisao: 0.2 } },
-      { texto: 'Mobilizo a equipe, divido o trabalho e acompanho de perto', scores: { administracao: 1.0, lideranca: 0.9, pressao: 0.7 } },
+      { texto: 'Mobilizo a equipe, divido o trabalho e acompanho de perto', scores: { administracao: 1.0, lideranca: 0.9, pressao: 0.7, estrategia: 0.7 } },
     ],
   },
   {
@@ -58,8 +58,8 @@ export const administracao = [
     id: 'adm-9', area: 'administracao', tipo: 'situacao', nivel: 4, categoria: 'dilema',
     texto: 'Você precisa escolher entre agradar a equipe ou cobrar mais desempenho. O que faz?',
     opcoes: [
-      { texto: 'Priorizo o clima bom — desempenho vem depois', scores: { administracao: 0.5, empatia: 0.6, lideranca: 0.3 } },
-      { texto: 'Cobro desempenho sem me importar com os sentimentos', scores: { administracao: 0.6, lideranca: 0.5, empatia: -0.3 } },
+      { texto: 'Priorizo o clima bom — desempenho vem depois', scores: { administracao: 0.55, empatia: 0.6, lideranca: 0.3 } },
+      { texto: 'Cobro desempenho sem me importar com os sentimentos', scores: { administracao: 0.45, lideranca: 0.5, empatia: -0.3 } },
       { texto: 'Explico a importância da meta e negocio com o time', scores: { administracao: 0.95, lideranca: 0.9, comunicacao: 0.8 } },
       { texto: 'Evito decidir e deixo cada um fazer o que quiser', scores: { administracao: 0.2, lideranca: -0.5 } },
     ],
@@ -70,7 +70,7 @@ export const administracao = [
     opcoes: [
       { texto: 'Decido rápido com o que tenho — não dá para esperar', scores: { administracao: 0.5, decisao: 0.6, risco: 0.4 } },
       { texto: 'Adio a decisão até ter todas as informações', scores: { administracao: 0.6, detalhismo: 0.5 } },
-      { texto: 'Busco as informações que faltam e consulto quem sabe mais', scores: { administracao: 0.95, estrategia: 0.8, decisao: 0.7 } },
+      { texto: 'Busco as informações que faltam e consulto quem sabe mais', scores: { administracao: 0.95, estrategia: 0.8, decisao: 0.8 } },
       { texto: 'Paraliso — tenho medo de errar', scores: { administracao: 0.1, decisao: -0.6 } },
     ],
   },

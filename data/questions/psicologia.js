@@ -14,7 +14,7 @@ export const psicologia = [
     texto: 'Um amigo(a) desaba em choro e pede para conversar no meio da sua prova importante. O que faz?',
     opcoes: [
       { texto: 'Digo que não posso agora e saio', scores: { psicologia: 0.3, empatia: 0.2 } },
-      { texto: 'Cancelo tudo e fico o tempo que precisar', scores: { psicologia: 0.7, empatia: 0.9, escuta: 0.8 } },
+      { texto: 'Cancelo tudo e fico o tempo que precisar', scores: { psicologia: 0.45, empatia: 0.9, escuta: 0.8 } },
       { texto: 'Ouço por alguns minutos, acolho e combinamos um horário depois', scores: { psicologia: 0.9, empatia: 0.85, estrategia: 0.6 } },
       { texto: 'Fico desconfortável e mudo de assunto', scores: { psicologia: 0.2, escuta: -0.3 } },
     ],

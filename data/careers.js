@@ -5,7 +5,7 @@ export const CAREERS = [
     area: 'tecnologia',
     descricao: 'Cria aplicativos, sites e sistemas que as pessoas usam no dia a dia.',
     pesos: { tecnologia: 1.0, engenharia: 0.3, financas: 0.1 },
-    tracos: ['logica', 'autonomia', 'persistencia', 'detalhismo'],
+    tracos: ['logica', 'autonomia', 'persistencia', 'comunicacao'],
   },
   {
     id: 'eng-software',
@@ -29,7 +29,7 @@ export const CAREERS = [
     area: 'administracao',
     descricao: 'Coordena equipes, prazos e entregas para que projetos saiam do papel.',
     pesos: { administracao: 1.0, tecnologia: 0.4, comunicacao: 0.3 },
-    tracos: ['organizacao', 'lideranca', 'pressao', 'comunicacao'],
+    tracos: ['organizacao', 'lideranca', 'comunicacao', 'estrategia', 'multitarefa', 'decisao'],
   },
   {
     id: 'administrador',
@@ -37,7 +37,7 @@ export const CAREERS = [
     area: 'administracao',
     descricao: 'Gerencia operações, pessoas e recursos de empresas e organizações.',
     pesos: { administracao: 0.95, financas: 0.5, comunicacao: 0.3 },
-    tracos: ['organizacao', 'decisao', 'pessoas', 'estrategia'],
+    tracos: ['organizacao', 'decisao', 'pessoas', 'estrategia', 'multitarefa'],
   },
   {
     id: 'medico',
@@ -45,7 +45,7 @@ export const CAREERS = [
     area: 'saude',
     descricao: 'Diagnostica, trata e acompanha a saúde de pacientes.',
     pesos: { saude: 1.0, ciencias: 0.7, psicologia: 0.3 },
-    tracos: ['empatia', 'pressao', 'precisao', 'responsabilidade'],
+    tracos: ['empatia', 'tolerancia_clinica', 'precisao', 'responsabilidade'],
   },
   {
     id: 'enfermeiro',
@@ -53,7 +53,7 @@ export const CAREERS = [
     area: 'saude',
     descricao: 'Cuida diretamente de pacientes, aplicando procedimentos e acolhendo.',
     pesos: { saude: 0.95, psicologia: 0.5, educacao: 0.2 },
-    tracos: ['empatia', 'rotina_intensa', 'procedimentos', 'cuidado'],
+    tracos: ['empatia', 'tolerancia_clinica', 'procedimentos', 'cuidado'],
   },
   {
     id: 'contador',
@@ -61,7 +61,7 @@ export const CAREERS = [
     area: 'financas',
     descricao: 'Organiza finanças, impostos e análises econômicas de empresas.',
     pesos: { financas: 1.0, administracao: 0.4, tecnologia: 0.2 },
-    tracos: ['numeros', 'precisao', 'analise', 'responsabilidade'],
+    tracos: ['numeros', 'precisao', 'analise', 'responsabilidade', 'decisao'],
   },
   {
     id: 'economista',
@@ -69,7 +69,7 @@ export const CAREERS = [
     area: 'financas',
     descricao: 'Analisa mercados, riscos e tendências para orientar decisões financeiras.',
     pesos: { financas: 0.9, ciencias: 0.3, comunicacao: 0.3 },
-    tracos: ['analise', 'risco', 'visao_futuro', 'argumentacao'],
+    tracos: ['analise', 'risco', 'visao_futuro', 'decisao', 'argumentacao'],
   },
   {
     id: 'designer',
@@ -93,7 +93,7 @@ export const CAREERS = [
     area: 'direito',
     descricao: 'Defende direitos, interpreta leis e representa pessoas em conflitos.',
     pesos: { direito: 1.0, comunicacao: 0.5, administracao: 0.2 },
-    tracos: ['argumentacao', 'etica', 'pressao', 'analise'],
+    tracos: ['argumentacao', 'etica', 'pressao', 'analise', 'comunicacao'],
   },
   {
     id: 'eng-civil',

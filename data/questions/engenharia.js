@@ -68,7 +68,7 @@ export const engenharia = [
     id: 'eng-10', area: 'engenharia', tipo: 'situacao', nivel: 4, categoria: 'pressao_avancada',
     texto: 'Uma estrutura que você ajudou a projetar apresenta rachaduras. Há pessoas usando o local. O que faz?',
     opcoes: [
-      { texto: 'Espero um laudo oficial antes de fazer qualquer coisa', scores: { engenharia: 0.5, responsabilidade: 0.4 } },
+      { texto: 'Espero um laudo oficial antes de fazer qualquer coisa', scores: { engenharia: 0.35, responsabilidade: 0.4 } },
       { texto: 'Evacuo o local imediatamente e aciono autoridades', scores: { engenharia: 0.95, responsabilidade: 1.0, pressao: 0.8 } },
       { texto: 'Fico paralisado(a) com medo da responsabilidade', scores: { engenharia: 0.2, pressao: -0.6 } },
       { texto: 'Reforço a estrutura rapidamente sem interromper o uso', scores: { engenharia: 0.4, etica: -0.3 } },

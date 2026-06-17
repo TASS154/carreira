@@ -30,7 +30,7 @@ export const financas = [
     opcoes: [
       { texto: 'Ignoro — não quero criar problema', scores: { financas: 0.1, etica: -0.5 } },
       { texto: 'Verifico os dados, documento e reporto imediatamente', scores: { financas: 0.95, etica: 0.9, responsabilidade: 0.9 } },
-      { texto: 'Corrijo sozinho(a) sem avisar ninguém', scores: { financas: 0.6, etica: 0.3 } },
+      { texto: 'Corrijo sozinho(a) sem avisar ninguém', scores: { financas: 0.45, etica: 0.3 } },
       { texto: 'Espero para ter certeza absoluta antes de falar', scores: { financas: 0.7, detalhismo: 0.6 } },
     ],
   },
@@ -46,7 +46,7 @@ export const financas = [
       { texto: 'Indico o investimento para não perder o cliente', scores: { financas: 0.2, etica: -0.5 } },
       { texto: 'Explico os riscos claramente e deixo a decisão com ele', scores: { financas: 0.9, etica: 0.9, comunicacao: 0.7 } },
       { texto: 'Recuso dar qualquer orientação — é muita responsabilidade', scores: { financas: 0.4, risco: -0.3 } },
-      { texto: 'Apresento cenários (otimista, realista, pessimista) com números', scores: { financas: 1.0, analise: 0.9, comunicacao: 0.8 } },
+      { texto: 'Apresento cenários (otimista, realista, pessimista) com números', scores: { financas: 1.0, analise: 0.9, comunicacao: 0.8, risco: 0.8 } },
     ],
   },
   {

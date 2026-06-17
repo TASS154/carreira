@@ -14,7 +14,7 @@ export const comunicacao = [
     texto: 'Um projeto criativo precisa ficar pronto amanhã, mas você não está satisfeito(a) com o resultado. O que faz?',
     opcoes: [
       { texto: 'Entrego mesmo insatisfeito(a) — prazo é prazo', scores: { comunicacao: 0.5, pressao: 0.4 } },
-      { texto: 'Peço mais tempo explicando o que falta melhorar', scores: { comunicacao: 0.7, qualidade: 0.7, comunicacao_skill: 0.6 } },
+      { texto: 'Peço mais tempo explicando o que falta melhorar', scores: { comunicacao: 0.7, qualidade: 0.7 } },
       { texto: 'Simplifico o projeto e entrego a melhor versão possível no tempo', scores: { comunicacao: 0.9, estrategia: 0.7, pressao: 0.6 } },
       { texto: 'Trabalho a noite toda para deixar perfeito', scores: { comunicacao: 0.8, criatividade: 0.8, rotina_intensa: 0.7 } },
     ],
@@ -45,7 +45,7 @@ export const comunicacao = [
     opcoes: [
       { texto: 'Faço exatamente o que pediram — cliente manda', scores: { comunicacao: 0.4, etica: 0.2 } },
       { texto: 'Recuso o projeto completamente', scores: { comunicacao: 0.5, etica: 0.7 } },
-      { texto: 'Apresento alternativas melhores e negocio uma solução', scores: { comunicacao: 0.95, comunicacao_skill: 0.9, criatividade: 0.8 } },
+      { texto: 'Apresento alternativas melhores e negocio uma solução', scores: { comunicacao: 0.95, criatividade: 0.8 } },
       { texto: 'Faço o pedido mas sem me envolver emocionalmente', scores: { comunicacao: 0.6, etica: 0.4 } },
     ],
   },
@@ -60,7 +60,7 @@ export const comunicacao = [
     opcoes: [
       { texto: 'Evito dar detalhes para não criar pânico', scores: { comunicacao: 0.3, etica: 0.2 } },
       { texto: 'Sou direto(a) e frio(a) — só os fatos importam', scores: { comunicacao: 0.5, empatia: 0.2 } },
-      { texto: 'Escrevo com clareza, empatia e indico próximos passos', scores: { comunicacao: 0.95, empatia: 0.8, comunicacao_skill: 0.9 } },
+      { texto: 'Escrevo com clareza, empatia e indico próximos passos', scores: { comunicacao: 0.95, empatia: 0.8 } },
       { texto: 'Peço para outra pessoa fazer — não quero essa responsabilidade', scores: { comunicacao: 0.2, lideranca: -0.3 } },
     ],
   },

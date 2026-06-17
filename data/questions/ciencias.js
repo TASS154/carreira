@@ -30,7 +30,7 @@ export const ciencias = [
     opcoes: [
       { texto: 'Desisto — são números demais', scores: { ciencias: 0.1, persistencia: -0.4 } },
       { texto: 'Organizo em tabelas, gráficos e busco correlações', scores: { ciencias: 0.95, analise: 0.9, metodo: 0.8 } },
-      { texto: 'Escolho o resultado que mais me agrada', scores: { ciencias: 0.1, etica: -0.6 } },
+      { texto: 'Escolho o resultado que mais me agrada', scores: { ciencias: 0.05, etica: -0.6 } },
       { texto: 'Peço ajuda e aprendo o método com quem sabe', scores: { ciencias: 0.8, autonomia: 0.5 } },
     ],
   },
